@@ -4,7 +4,6 @@ using System.Text;
 namespace ConsoleApp1;
 
 public enum QualityType {
-    UnexpectedValue = 0,
     Valid = 1,
     Defect = 2,
 }
@@ -35,9 +34,10 @@ internal sealed class Program
                     {
                         Console.Write("Годный (1) или брак (2)? ");
                         quality = (QualityType)int.Parse(Console.ReadLine()?? string.Empty);
-                        if (quality == QualityType.UnexpectedValue) Console.WriteLine("Пожалуйста введите корректное значение");
+                        if (quality != QualityType.Defect && quality != QualityType.Valid) 
+                            Console.WriteLine("Пожалуйста введите корректное значение");
                         
-                    } while (quality == QualityType.UnexpectedValue);
+                    } while (quality != QualityType.Defect && quality != QualityType.Valid);
                     
                     data = Encoding.ASCII.GetBytes($"CAMERA:{(int)quality}");
                     stream.Write(data, 0, data.Length);
@@ -49,8 +49,10 @@ internal sealed class Program
                 case 3:
                     stream.Close();
                     client.Close();
-                    break;
-                defalt: throw new Exception("Не было выбрано ни одно действие");
+                    Console.WriteLine("Вы завершили работу программы");
+                    return;
+                default: Console.WriteLine("Введите корректное значнеие");
+                continue;
 
             }
         }
