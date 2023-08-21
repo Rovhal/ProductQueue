@@ -1,0 +1,15 @@
+C:\Users\asana\RiderProjects\ConsoleApp1\ProductQueue\bin\Debug\net6.0\ProductQueue.exe
+C:\Users\asana\RiderProjects\ConsoleApp1\ProductQueue\bin\Debug\net6.0\ProductQueue.deps.json
+C:\Users\asana\RiderProjects\ConsoleApp1\ProductQueue\bin\Debug\net6.0\ProductQueue.runtimeconfig.json
+C:\Users\asana\RiderProjects\ConsoleApp1\ProductQueue\bin\Debug\net6.0\ProductQueue.dll
+C:\Users\asana\RiderProjects\ConsoleApp1\ProductQueue\bin\Debug\net6.0\ProductQueue.pdb
+C:\Users\asana\RiderProjects\ConsoleApp1\ProductQueue\obj\Debug\net6.0\ProductQueue.csproj.AssemblyReference.cache
+C:\Users\asana\RiderProjects\ConsoleApp1\ProductQueue\obj\Debug\net6.0\ProductQueue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asana\RiderProjects\ConsoleApp1\ProductQueue\obj\Debug\net6.0\ProductQueue.AssemblyInfoInputs.cache
+C:\Users\asana\RiderProjects\ConsoleApp1\ProductQueue\obj\Debug\net6.0\ProductQueue.AssemblyInfo.cs
+C:\Users\asana\RiderProjects\ConsoleApp1\ProductQueue\obj\Debug\net6.0\ProductQueue.csproj.CoreCompileInputs.cache
+C:\Users\asana\RiderProjects\ConsoleApp1\ProductQueue\obj\Debug\net6.0\ProductQueue.dll
+C:\Users\asana\RiderProjects\ConsoleApp1\ProductQueue\obj\Debug\net6.0\refint\ProductQueue.dll
+C:\Users\asana\RiderProjects\ConsoleApp1\ProductQueue\obj\Debug\net6.0\ProductQueue.pdb
+C:\Users\asana\RiderProjects\ConsoleApp1\ProductQueue\obj\Debug\net6.0\ProductQueue.genruntimeconfig.cache
+C:\Users\asana\RiderProjects\ConsoleApp1\ProductQueue\obj\Debug\net6.0\ref\ProductQueue.dll
